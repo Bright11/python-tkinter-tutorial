@@ -8,6 +8,8 @@ class page1:
         self.window = window
         self.window.title("Page 1")
         self.window.geometry("500x500")
+        self.window.resizable(False, False)
+        self.window.config(bg="black")
 
         self.label = Label(self.window, text="Page 1")
         self.label.pack()
